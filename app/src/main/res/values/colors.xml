@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#84D6F7</color>
+    <color name="colorPrimaryDark">#84D6F7</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWelcome">#8B3A62</color>
+    <color name="colorHome1">#E6A24D</color>
+    <color name="colorHome2">#F3C2C2</color>
+    <color name="colorHome3">#96D398</color>
+    <color name="colorQuit">#D19FDF</color>
+    <color name="colorGuideDialog">#3B7DA8</color>
+    <color name="colorRewardDialog">#F1AC19</color>
+</resources>

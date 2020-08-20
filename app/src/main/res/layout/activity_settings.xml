@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_bg"
+    android:orientation="vertical"
+    tools:context=".Settings">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Choose\nGame Difficulty"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.8"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="How many guesses do you want\nfor a round?"
+        android:textSize="22sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2.3"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radio_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:checked="true"
+            android:fontFamily="@font/fredoka_one"
+            android:text="3 Guesses"
+            android:textColor="#B94949"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="4 Guesses"
+            android:textColor="#B94949"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="5 Guesses"
+            android:textColor="#B94949"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="7 Guesses"
+            android:textColor="#B94949"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="9 Guesses"
+            android:textColor="#B94949"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_apply"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/text_view_selected"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/custom_button_home1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Apply"
+        android:textColor="#FFFEFE"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
