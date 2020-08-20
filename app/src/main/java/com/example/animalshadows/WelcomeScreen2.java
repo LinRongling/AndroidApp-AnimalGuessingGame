@@ -20,6 +20,7 @@ public class WelcomeScreen2 extends AppCompatActivity {
         score1 = getIntent().getExtras().getInt("Value1");
         score2 = getIntent().getExtras().getInt("Value2");
 
+
         start = (Button)findViewById(R.id.start);
         settings = (Button)findViewById(R.id.settings);
         score = (Button)findViewById(R.id.score);
